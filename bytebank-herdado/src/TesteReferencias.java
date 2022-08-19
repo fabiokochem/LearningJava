@@ -12,7 +12,7 @@ public class TesteReferencias {
         ControleBonificacao controle = new ControleBonificacao();
 
         controle.registra(pedreiro);
-        controle.registra(designer);
+        controle.registra(designer);    
 
         System.out.println(controle.getSoma());
     }
